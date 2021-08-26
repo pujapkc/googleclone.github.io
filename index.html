@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>google</title>
+    <style>
+      .container {
+        display: flex;
+        text-align: center;
+        margin: -87px;
+        padding: 100px;
+        justify-content: center;
+      }
+      .box {
+        display: flex;
+        align-items: flex-start;
+      }
+      #first {
+        font-size: 151px;
+        color: rgb(120, 120, 236);
+      }
+      #second {
+        font-size: 151px;
+        color: red;
+      }
+      #third {
+        font-size: 151px;
+        color: orange;
+      }
+      #fourth {
+        font-size: 151px;
+        color: rgb(120, 120, 236);
+      }
+      #fifth {
+        font-size: 151px;
+        color: rgb(65, 150, 65);
+      }
+      #sixth {
+        font-size: 151px;
+        color: red;
+      }
+
+      input {
+        width: 453px;
+        height: 41px;
+        border-radius: 23px;
+        margin-left: 500px;
+        padding: 0px;
+      }
+      input:hover{
+          cursor: pointer;
+      }
+      .btn3 {
+        display: inline-block;
+        margin: 6px 94px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        background-color: grey;
+        color: aliceblue;
+        height: 35px;
+        border-radius: 4px;
+      }
+      .btn2 {
+        margin: 3px 76px;
+        margin-left: 0px;
+        margin-right: 73px;
+        background-color: grey;
+        color: aliceblue;
+        height: 35px;
+        border-radius: 4px;
+      }
+      .toggle {
+        text-align: center;
+        background-color: grey;
+        color: aliceblue;
+        height: 35px;
+        margin: 12px;
+        border-radius: 4px;}
+      .button {
+        margin: 31px 79px;
+        width: auto;
+        text-align: center;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+
+      body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      
+      
+      .footer {
+        position: fixed;
+        left: 0px;
+        bottom: 5px;
+        right: 10px;
+        width: 100%;
+       
+      }
+      .footerleft{
+          float: left;
+          padding-left: 40px;
+          word-spacing: 20px;
+          
+      }
+      .a{
+          text-decoration: none;
+          color: black;
+      }
+      .underbutton {
+        text-align: center;
+        font-size: 15px;
+        margin-left: 78px;
+      }
+      .btn2:hover {
+        cursor: pointer;
+        background-color: rgb(78, 173, 173);
+      }
+      .btn3:hover {
+        cursor: pointer;
+        background-color: rgb(78, 173, 173);
+      }
+      .toggle:hover {
+        cursor: pointer;
+        background-color: rgb(78, 173, 173);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div id="first">G</div>
+        <div id="second">o</div>
+        <div id="third">o</div>
+        <div id="fourth">g</div>
+        <div id="fifth">l</div>
+        <div id="sixth">e</div>
+      </div>
+    </div>
+    <!-- <form action="noaction.php">-->
+    <div class="btn1">
+      <input type="text" name="text" id="text" placeholder="" />
+    </div>
+    <div class="button">
+      <button class="btn2">Google Search</button>
+
+      <button class="btn3">I'm feeling Lucky</button>
+
+      <!--</form>-->
+      <div >
+        <button class="toggle" onclick="myFunction()">Toggle dark mode</button>
+      </div>
+    
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+    <div class="underbutton">
+      <p>google offered in: hindi english persian spanish german urdu tamil telugu turkish</p>
+    </div>
+    <div class="footer">
+        <p  class="footerleft">
+            <a class="a" href="#">about us</a>
+            <a class="a" href="#">business</a>
+            <a  class="a" href="#">how search works</a>
+            <a   class="a" href="#">contact us</a>
+        </p>
+    </div>
+  </body>
+</html>
